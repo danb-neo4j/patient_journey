@@ -1,4 +1,4 @@
-# Synthea Patient Journey Analysis with Neo4j Graph Data Science
+# Patient Journey Analysis with Neo4j Graph Data Science
 
 ## Overview
 This repository contains three Jupyter Notebooks to demonstrate a Patient Journey analysis using [Synthea Synthetic Patient Data](https://synthea.mitre.org/). These notebooks uses generated Synthea data for approximately 5,000 patients. A smaller Synthea data set is published to the [Github repo](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074) associated with the book [Graph Data Processing with Cypher](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074).
