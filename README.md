@@ -1,7 +1,7 @@
 # Patient Journey Analysis with Neo4j Graph Data Science
 
 ## Overview
-This repository contains three Jupyter Notebooks to demonstrate a Patient Journey analysis using [Synthea Synthetic Patient Data](https://synthea.mitre.org/). These notebooks uses generated Synthea data for approximately 5,000 patients. A smaller Synthea data set is published to the [Github repo](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074) associated with the book [Graph Data Processing with Cypher](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074).
+This repository contains three Jupyter Notebooks to demonstrate a Patient Journey analysis using [Synthea Synthetic Patient Data](https://synthea.mitre.org/). 
 
 ## Notebooks
 
@@ -14,6 +14,12 @@ This repository contains three Jupyter Notebooks to demonstrate a Patient Journe
 ## Utility Files
 
 - **neoUtils.py**: This utility file contains a function to connect to the Neo4j instance, enabling secure access to the database without exposing login credentials in the Jupyter Notebooks.
+
+## Synthea Data
+
+- This demo uses generated Synthea data for approximately 5,000 patients. The full data set is [available here](https://drive.google.com/drive/folders/1OqoYdHdW5e0eeeS6Idj3BTtLeDjEgIOz?usp=sharing) and includes a Neo4j Dump file that can be directly loaded into a Neo4j instance.
+- A smaller Synthea data set is published to the [Github repo](https://github.com/PacktPublishing/Cypher-Querying) associated with the book [Graph Data Processing with Cypher](https://www.packtpub.com/product/graph-data-processing-with-cypher/9781804611074). 
+- This demo uses Patient, Encounter, Procedure, and Drug and leverages the data model demonstrated in book Graph Data Processing with Cypher.
 
 ## Future Plans
 - **KNN-Focused Notebook**: The Node Similarity algorithm is computationally expensive and does not scale well to large data sets. A KNN-focused patient journey notebook is in development and will be posted to this repo once it is available. The Neo4j GDS implementation of KNN scales much better to large data sets, though may not provide the same insights as Node Similarity. 
