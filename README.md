@@ -9,7 +9,9 @@ This repository contains three Jupyter Notebooks to demonstrate a Patient Journe
 
 2. **[patientJourney_dataLoad.ipynb](https://github.com/danb-neo4j/patient_journey/blob/main/patientJourney_dataLoad.ipynb)**: This notebook demonstrates the process of loading Synthea Patient, Encounter, Procedure, and Drug data into a Neo4j AuraDS instance. 
 
-3. **[patientJourney_nodeSimilarity.ipynb](https://github.com/danb-neo4j/patient_journey/blob/main/patientJourney_nodeSimilarity.ipynb)**: This notebook performs patient journey analysis on the Synthea dataset using the GDS Node Similarity algorithm, along with embeddings and k-nearest neighbors (KNN). It explores the relationships among patients, encounters, procedures, and drugs, but does not leverage temporal relationships. Creating these is an advanced data modeling topic and the objective of this notebook is to demonstrate the insights available without such a refactoring. 
+3. **[patientJourney_graphEDA.ipynb](https://github.com/danb-neo4j/patient_journey/blob/main/patientJourney_graphEDA.ipynb)**: This notebook demonstrates an in-depth graph exploratory data analysis workflow on the entire graph as well as the Patient nodes. [GraphEDA](https://github.com/danb-neo4j/gds-guide/blob/main/graph-eda.md) is a critical step once data has been loaded from the source format into a graph database.
+  
+5. **[patientJourney_nodeSimilarity.ipynb](https://github.com/danb-neo4j/patient_journey/blob/main/patientJourney_nodeSimilarity.ipynb)**: This notebook performs patient journey analysis on the Synthea dataset using the GDS Node Similarity algorithm, along with embeddings and k-nearest neighbors (KNN). It explores the relationships among patients, encounters, procedures, and drugs, but does not leverage temporal relationships. Creating these is an advanced data modeling topic and the objective of this notebook is to demonstrate the insights available without such a refactoring. 
 
 ## Utility Files
 
